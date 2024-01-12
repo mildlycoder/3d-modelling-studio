@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Headers from './Components/Headers'
 const Home = () => {
   return (
     <div>
 
       
-
+    <Headers />
 
       <section>
         <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
