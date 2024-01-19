@@ -50,7 +50,6 @@ const Gallery = () => {
 
   return (
     <div>
-      <Headers />
       <div className="flex items-center justify-center py-4 md:py-8 flex-wrap">
         {Object.keys(images).map((category) => (
           <button
