@@ -10,8 +10,8 @@ function App() {
   return (
     <>
     <Helmet>
-        <title>DreamVizz</title>
-        <meta name="dreamvizz" content="DreamVizz is a Visualization firm for your needs"/>
+        <title>Dreamvizz</title>
+        <meta name="dreamvizz" content="Dreamvizz is a Visualization firm for your needs"/>
     </Helmet>
     <Headers />
     <Routes>
