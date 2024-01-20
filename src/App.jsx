@@ -11,7 +11,10 @@ function App() {
     <>
     <Helmet>
         <title>Dreamvizz</title>
-        <meta name="dreamvizz" content="Dreamvizz is a Visualization firm for your needs"/>
+        <meta name="description" content="Dreamvizz is a Visualization firm for your needs" />
+        <meta name="keywords" content="visualization, dreamvizz, architecture, design" />
+        <meta name="author" content="dreamvizz" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Helmet>
     <Headers />
     <Routes>
