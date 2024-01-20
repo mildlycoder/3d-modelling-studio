@@ -1,0 +1,15 @@
+{
+    "short_name": "Dreamvizz",
+    "name": "DreamVizz is a Visualization firm for your needs",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "31.88x32",
+        "type": "image/x-icon"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#c061cb",
+    "background_color": "#ffffff"
+  }
