@@ -1,61 +1,71 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 
 function ContactForm() {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [projectDetails, setProjectDetails] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add logic to handle form submission, e.g., send data to the server
-    console.log('Form submitted:', { fullName, email, message });
+    console.log('Form submitted:', { fullName, email, projectDetails });
     // You can add additional logic here, such as sending a request to a server.
   };
 
   return (
-    <form className="mt-6" onSubmit={handleSubmit}>
-      <div className="flex-1">
-        <label className="block mb-2 text-sm text-gray-600">Your Full Name</label>
+    <motion.form
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.5 }}
+      className="mx-auto max-w-md p-6 bg-white shadow-md rounded-md"
+      onSubmit={handleSubmit}
+    >
+      <div className="mb-4">
+        <label className="block text-sm font-medium text-gray-600">Your Full Name</label>
         <input
           type="text"
           placeholder="John Doe"
-          className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring"
+          className="w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-400 transition-all duration-300"
           value={fullName}
           onChange={(e) => setFullName(e.target.value)}
           required
         />
       </div>
 
-      <div className="flex-1 mt-6">
-        <label className="block mb-2 text-sm text-gray-600">Your Email Address</label>
+      <div className="mb-4">
+        <label className="block text-sm font-medium text-gray-600">Your Email Address</label>
         <input
           type="email"
           placeholder="johndoe@example.com"
-          className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring"
+          className="w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-400 transition-all duration-300"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
       </div>
 
-      <div className="w-full mt-6">
-        <label className="block mb-2 text-sm text-gray-600">Appointment or Query Details</label>
+      <div className="mb-6">
+        <label className="block text-sm font-medium text-gray-600">Project Details</label>
         <textarea
-          className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring"
-          placeholder="Describe your appointment or query..."
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
+          className="w-full h-32 px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-400 transition-all duration-300"
+          placeholder="Tell us about your architectural visualization project, including goals and specific requirements..."
+          value={projectDetails}
+          onChange={(e) => setProjectDetails(e.target.value)}
           required
         ></textarea>
       </div>
 
-      <button
+      <motion.button
         type="submit"
-        className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        className="w-full px-6 py-3 text-sm font-medium tracking-wide text-white uppercase bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:border-blue-400 transition-all duration-300"
       >
-        Submit Appointment/Query
-      </button>
-    </form>
+        Schedule ArchViz Consultation
+      </motion.button>
+    </motion.form>
   );
 }
 
