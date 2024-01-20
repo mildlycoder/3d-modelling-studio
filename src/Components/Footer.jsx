@@ -17,13 +17,13 @@ const Footer = () => {
               <p>
                 <span className="text-xs uppercase tracking-wide text-gray-500"> Contact & Visit us </span>
 
-                <a href="#" className="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
+                <h2  className="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl" onClick={() => window.location.href = 'tel:9022712136'}>
                   9022712136
-                </a>
+                </h2>
               </p>
 
               <ul className="mt-8 space-y-1 text-sm text-gray-700">
-                <li> 2nd Floor, GoodWill Square Mall, Dhanori Rd, Siddharth Nagar, Madhav Nagar, Dhanori, Pune, Maharashtra 411015</li>
+                <li> <a href="https://maps.app.goo.gl/kuVzJkSsxFLfgenV7" target='_blank'> 2nd Floor, GoodWill Square Mall, Dhanori Rd, Siddharth Nagar, Madhav Nagar, Dhanori, Pune, Maharashtra 411015 </a></li>
                 <li>Monday to Friday: 10am - 5pm</li>
                 <li>Weekend: 10am - 3pm</li>
               </ul>
