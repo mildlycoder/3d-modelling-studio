@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from './Components/ContactForm'
 
 const Contact = () => {
   return (
@@ -51,26 +52,7 @@ const Contact = () => {
                   to hear from you
                 </p>
 
-                <form className="mt-6">
-                  <div className="flex-1">
-                    <label className="block mb-2 text-sm text-gray-600">Full Name</label>
-                    <input type="text" placeholder="John Doe" className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring" />
-                  </div>
-
-                  <div className="flex-1 mt-6">
-                    <label className="block mb-2 text-sm text-gray-600">Email address</label>
-                    <input type="email" placeholder="johndoe@example.com" className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring" />
-                  </div>
-
-                  <div className="w-full mt-6">
-                    <label className="block mb-2 text-sm text-gray-600">Message</label>
-                    <textarea className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring" placeholder="Message"></textarea>
-                  </div>
-
-                  <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
-                    get in touch
-                  </button>
-                </form>
+                <ContactForm />
               </div>
             </div>
           </div>
