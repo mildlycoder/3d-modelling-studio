@@ -17,36 +17,36 @@ const Gallery = () => {
 
   const images = {
     'All categories': [
-      'https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg',
-      'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg',
-      'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg',
-      'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg',
-      'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg',
-      'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg',
-      'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg',
-      'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg',
-      'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg',
+      'https://i.ibb.co/hBmnXPR/DINING-ROOM2-copy.jpg',
+      'https://i.ibb.co/HHpPK1z/GUEST-ROOM-AS-copy.jpg',
+      'https://i.ibb.co/fq00rDG/KIDS-BEDROOM3-copy.jpg',
+      'https://i.ibb.co/J22h0KW/KIDS-ROOM1-copy.jpg',
+      'https://i.ibb.co/Ny683Cx/LIVING-ROOM-AD1-copy.jpg',
+      'https://i.ibb.co/Rc1Xzcd/KIDS-ROOM8-copy.jpg',
+      'https://i.ibb.co/n6f9TGh/MASTER-BEDROOM10-copy.jpg',
+      'https://i.ibb.co/gggxM2d/PARENTS-BEDROOM1-copy.jpg',
+      'https://i.ibb.co/7QjzwSg/PARENTS-BEDROOM2-copy.jpg',
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg',
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg',
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg',
     ],
-    Shoes: [
+    Living: [
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg',
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg',
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg',
     ],
-    Bags: [
+    Bedroom: [
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg',
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg',
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg',
     ],
-    Electronics: [
+    Kitchen: [
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg',
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg',
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg',
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg',
     ],
-    Gaming: [
+    Bathroom: [
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg',
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg',
       'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg',
