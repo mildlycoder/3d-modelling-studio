@@ -9,7 +9,7 @@ const ServicesComp = () => {
       <ServiceTextComp />
         <div class="flex flex-col gap-4">
           <BulletComp 
-          title="D Architectural Visualisation"
+          title="3D Architectural Visualisation"
           text="Immerse clients in stunning, lifelike representations of architectural designs. Precision meets creativity!"
           />
           <BulletComp 
