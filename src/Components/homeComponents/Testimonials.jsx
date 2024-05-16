@@ -35,10 +35,10 @@ const TestimonialCarousel = () => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
-          className="bg-white p-16 block rounded-xl border border-gray-300 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring transition duration-300 ease-in-out transform hover:scale-105"
+          className="bg-slate-600 p-16 block rounded-xl border border-gray-300 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring transition duration-300 ease-in-out transform hover:scale-105"
         >
-          <p className="text-gray-700 text-3xl mb-4">{testimonials[currentTestimonial].text}</p>
-          <p className="text-gray-500">{testimonials[currentTestimonial].author}</p>
+          <p className="text-gray-100 text-3xl mb-4">{testimonials[currentTestimonial].text}</p>
+          <p className="text-gray-300">{testimonials[currentTestimonial].author}</p>
         </motion.div>
       </AnimatePresence>
 

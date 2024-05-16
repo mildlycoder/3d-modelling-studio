@@ -36,9 +36,9 @@ const AboutComp = () => {
         </div>
 
         <div className="lg:py-24">
-          <h2 className="text-3xl font-bold sm:text-4xl">Why Choose Us? </h2>
+          <h2 className="text-3xl font-bold sm:text-4xl text-white">Why Choose Us? </h2>
 
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-white">
             We redefine 3D architectural visualization with precision and innovation. At DreamVizz, our visualizations are masterpieces, bringing your vision to life with extraordinary clarity. Animated walkthroughs set trends and offer a unique, engaging experience. We prioritize transparent communication, exceeding expectations every time. Elevate your projects with DreamVizz, where creativity meets precision.
           </p>
 

@@ -15,7 +15,7 @@ const HeroComp = () => {
                 <img
                   alt="House"
                   src="https://i.ibb.co/yqMFsGj/MASTER-BEDROOM11-copy-2.jpg"
-                  className="absolute inset-0 h-full w-full object-cover"
+                  className="absolute inset-0 h-full w-full object-cover rounded-xl"
                 />
               </m.div>
             </div>
@@ -25,9 +25,9 @@ const HeroComp = () => {
             initial={{x:"50%", opacity:"0%"}}
               animate={{x: "0%", opacity:"100%"}}
               transition={{duration:1.5, ease:"easeInOut"}}
-            className="relative flex items-center bg-gray-100">
+            className="relative flex items-center bg-slate-700 rounded-r-xl">
               <span
-                className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"
+                className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-slate-700 rounded-l-xl"
               ></span>
 
               <div className="p-8 sm:p-16 lg:p-24">
@@ -35,7 +35,7 @@ const HeroComp = () => {
                 initial={{ opacity: 0, y: 80 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 2 }}
-                className="text-2xl font-bold sm:text-3xl text-brown-800"
+                className="text-2xl font-bold sm:text-3xl text-white"
               >
                 DreamVizz is a Visualization firm for your needs
               </m.h2>
@@ -44,7 +44,7 @@ const HeroComp = () => {
                 initial={{ opacity: 0, y: 80 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 2 }}
-                className="mt-4 text-gray-600">
+                className="mt-4 text-white">
                   Welcome to DreamVizz, your premier destination for 3D visualization in interior design and architecture. Our skilled team transforms visions into stunning realities through cutting-edge technology and artistic finesse. Experience the future of visualization with DreamVizz, where dreams come to life in three-dimensional splendor.
                 </m.p>
 
@@ -52,7 +52,7 @@ const HeroComp = () => {
                   initial={{ opacity: 0, y: 80 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 2 }}
-                  href="#"
+                  href="contact"
                   className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
                 >
                   <Link to="contact">

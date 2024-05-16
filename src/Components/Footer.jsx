@@ -2,12 +2,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="bg-white lg:grid lg:grid-cols-5">
+    <footer className="bg-slate-800 text-white lg:grid lg:grid-cols-5">
         <div className="block h-32 lg:col-span-2 lg:h-full">
           <img
             src="https://i.ibb.co/R0x3ZZC/goodwill.jpg"
             alt=""
-            className=" inset-0 h-full w-full object-cover"
+            className=" inset-0 h-full w-full object-cover rounded-xl"
           />
         </div>
 
@@ -15,14 +15,14 @@ const Footer = () => {
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
             <div>
               <p>
-                <span className="text-xs uppercase tracking-wide text-gray-500"> Contact & Visit us </span>
+                <span className="text-xs uppercase tracking-wide text-white"> Contact & Visit us </span>
 
-                <h2  className="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl" onClick={() => window.location.href = 'tel:9022712136'}>
+                <h2  className="block text-2xl font-medium text-white hover:opacity-75 sm:text-3xl" onClick={() => window.location.href = 'tel:9022712136'}>
                   9022712136
                 </h2>
               </p>
 
-              <ul className="mt-8 space-y-1 text-sm text-gray-700">
+              <ul className="mt-8 space-y-1 text-sm text-white">
                 <li> <a href="https://maps.app.goo.gl/kuVzJkSsxFLfgenV7" target='_blank'> 2nd Floor, GoodWill Square Mall, Dhanori Rd, Siddharth Nagar, Madhav Nagar, Dhanori, Pune, Maharashtra 411015 </a></li>
                 <li>Monday to Friday: 10am - 5pm</li>
                 <li>Weekend: 10am - 3pm</li>
@@ -34,7 +34,7 @@ const Footer = () => {
                     href="/"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-white transition hover:opacity-75"
                   >
                     <span className="sr-only">Facebook</span>
 
@@ -53,7 +53,7 @@ const Footer = () => {
                     href="https://www.instagram.com/dreamvizzdesigns/"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-white transition hover:opacity-75"
                   >
                     <span className="sr-only">Instagram</span>
 
@@ -72,7 +72,7 @@ const Footer = () => {
                     href="/"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-white transition hover:opacity-75"
                   >
                     <span className="sr-only">Twitter</span>
 
@@ -138,19 +138,19 @@ const Footer = () => {
             <div className="sm:flex sm:items-center sm:justify-between">
               <ul className="flex flex-wrap gap-4 text-xs">
                 <li>
-                  <a href="#" className="text-gray-500 transition hover:opacity-75"> Terms & Conditions </a>
+                  <a href="#" className="text-white transition hover:opacity-75"> Terms & Conditions </a>
                 </li>
 
                 <li>
-                  <a href="#" className="text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
+                  <a href="#" className="text-white transition hover:opacity-75"> Privacy Policy </a>
                 </li>
 
                 <li>
-                  <a href="#" className="text-gray-500 transition hover:opacity-75"> Cookies </a>
+                  <a href="#" className="text-white transition hover:opacity-75"> Cookies </a>
                 </li>
               </ul>
 
-              <p className="mt-8 text-xs text-gray-500 sm:mt-0">
+              <p className="mt-8 text-xs text-white sm:mt-0">
                 &copy; 2022. Company Name. All rights reserved.
               </p>
             </div>
