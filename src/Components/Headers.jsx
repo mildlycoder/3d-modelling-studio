@@ -8,7 +8,7 @@ const Headers = () => {
           <div className="sm:flex sm:items-center sm:justify-between">
             <div className="text-center sm:text-left">
               <Link to="/">
-                <img src="/Dreamvizz-logos_transparent.png" width="120px" />
+                <img src="/Dreamvizz-logos_transparent.png" width="140px" />
               </Link>
             </div>
 
