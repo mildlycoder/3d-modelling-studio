@@ -61,7 +61,7 @@ function ContactForm() {
         type="submit"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        className="w-full px-6 py-3 text-sm font-medium tracking-wide text-white uppercase bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:border-blue-400 transition-all duration-300"
+        className="w-full px-6 py-3 text-sm font-medium tracking-wide text-white uppercase bg-indigo-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:border-blue-400 transition-all duration-300"
       >
         Schedule ArchViz Consultation
       </motion.button>
