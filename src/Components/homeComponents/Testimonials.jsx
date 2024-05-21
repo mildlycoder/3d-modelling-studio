@@ -47,7 +47,7 @@ const TestimonialCarousel = () => {
           <button
             key={index}
             onClick={() => handleDotClick(index)}
-            className={`mx-2 w-4 h-4 bg-indigo-600 rounded-full focus:outline-none ${
+            className={`mx-2 w-4 h-4 bg-blue-600 rounded-full focus:outline-none ${
               index === currentTestimonial ? 'opacity-100' : 'opacity-50'
             }`}
           ></button>

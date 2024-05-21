@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="flex flex-col text-white mx-auto relative z-10 rounded-xl bg-contain bg-[url('https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/dreamvizz/u52qsdax3mgp8gk6v6kk')]">
           <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
             <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
-              <div class="text-slate-800 lg:w-1/2 lg:mx-6 bg-white/40 p-4 rounded-xl">
+              <div class="text-slate-800 lg:w-1/2 lg:mx-6 bg-white/40 backdrop-blur-md p-4 rounded-xl">
                 <h1 className="text-3xl font-semibold capitalize lg:text-4xl mb-4">Welcome to DreamVizz</h1>
 
                 <p className="max-w-xl mt-4 text-lg ">
@@ -25,10 +25,10 @@ const Contact = () => {
               </div>
 
               <div className="mt-8 lg:w-1/2 lg:mx-6">
-                <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl lg:max-w-xl">
-                  <h1 className="text-2xl font-medium text-gray-700 mb-4">Contact DreamVizz</h1>
+                <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white/40 backdrop-blur-md shadow-2xl rounded-xl lg:max-w-xl">
+                  <h1 className="text-2xl font-semibold text-slate-900 mb-4">Contact DreamVizz</h1>
 
-                  <p className="mt-2 text-gray-500">
+                  <p className="font-medium my-2 text-slate-900">
                     Let us know about your architectural visualization needs. DreamVizz is here to turn your visions into stunning 3D renderings that exceed expectations.
                   </p>
 

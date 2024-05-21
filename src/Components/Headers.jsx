@@ -15,7 +15,7 @@ const Headers = () => {
             <div className="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
               <Link
                 to="/gallery"
-                className="inline-flex items-center justify-center gap-1.5 rounded-lg border border-gray-200 px-5 py-3 text-gray-500 transition hover:bg-gray-50 hover:text-gray-700 focus:outline-none focus:ring"
+                className="inline-flex items-center justify-center gap-1.5 rounded-lg border border-blue-600 px-5 py-3 text-blue-600 transition hover:bg-slate-900 hover:text-blue-400"
                 type="button"
               >
                 <span className="text-sm font-medium"> Gallery</span>
@@ -23,7 +23,7 @@ const Headers = () => {
 
               <Link
                 to="/contact"
-                className="block rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+                className="block rounded-lg bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-800 focus:outline-none focus:ring"
                 type="button"
               >
                 Contact us

@@ -71,7 +71,7 @@ const Gallery = () => {
           <motion.button
             key={category}
             type="button"
-            className={`text-gray-100 border border-slate-400 hover:border-indigo-500 bg-slate-600 focus:ring-2 focus:outline-none focus:ring-indigo-700 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 ${
+            className={`text-gray-100 border border-slate-400 hover:border-blue-800 hover:bg-blue-800  bg-slate-600 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 ${
               selectedCategory === category ? 'active' : ''
             }`}
             onClick={() => handleCategoryChange(category)}

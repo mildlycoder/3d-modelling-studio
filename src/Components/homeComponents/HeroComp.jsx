@@ -15,7 +15,7 @@ const HeroComp = () => {
                 <img
                   alt="House"
                   src="https://i.ibb.co/yqMFsGj/MASTER-BEDROOM11-copy-2.jpg"
-                  className="absolute inset-0 h-full w-full object-cover rounded-xl"
+                  className="absolute inset-0 h-full w-full object-cover rounded-xl transition ease-in-out delay-150 hover:scale-105 duration-300"
                 />
               </m.div>
             </div>
@@ -53,7 +53,7 @@ const HeroComp = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 2 }}
                   href="contact"
-                  className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                  className="mt-8 inline-block rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-200 hover:text-blue-600 focus:outline-none focus:ring active:text-indigo-500"
                 >
                   <Link to="contact">
                     Get in Touch

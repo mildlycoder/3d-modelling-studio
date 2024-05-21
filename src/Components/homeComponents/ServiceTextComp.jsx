@@ -28,7 +28,7 @@ const ServiceTextComp = () => {
       </p>
 
       <a href="#/contact">
-      <button className="mt-8 inline-block rounded bg-indigo-600 px-6 py-3 text-sm font-medium text-white transition duration-300 ease-in-out transform hover:bg-indigo-700" >
+      <button className="mt-8 inline-block rounded bg-blue-600 px-6 py-3 text-sm font-medium text-white transition duration-300 ease-in-out transform hover:bg-blue-400" >
         Getting started
       </button>
       </a>
