@@ -36,15 +36,15 @@ const AboutComp = () => {
         </div>
 
         <div className="lg:py-24">
-          <h2 className="text-3xl font-bold sm:text-4xl">Why Choose Us? </h2>
+          <h2 className="text-3xl font-bold sm:text-4xl text-white">Why Choose Us? </h2>
 
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-white">
             We redefine 3D architectural visualization with precision and innovation. At DreamVizz, our visualizations are masterpieces, bringing your vision to life with extraordinary clarity. Animated walkthroughs set trends and offer a unique, engaging experience. We prioritize transparent communication, exceeding expectations every time. Elevate your projects with DreamVizz, where creativity meets precision.
           </p>
 
           <a
             href="#"
-            className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+            className="mt-8 inline-block rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-400"
           >
             Get Started Today
           </a>

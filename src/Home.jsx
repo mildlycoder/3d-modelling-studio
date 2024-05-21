@@ -11,12 +11,15 @@ import AboutComp from './Components/homeComponents/AboutComp'
 import Testimonials from './Components/homeComponents/Testimonials'
 import Footer from './Components/Footer'
 import HeroComp from './Components/homeComponents/HeroComp'
+import InstagramCarousel from './Components/homeComponents/InstagramCarousel'
 
 const Home = () => {
   
   return (
-    <div>
+    <div className="bg-slate-800">
       <HeroComp />
+
+      <InstagramCarousel />
 
       <ServicesComp />
 

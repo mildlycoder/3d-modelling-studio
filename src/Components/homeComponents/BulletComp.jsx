@@ -19,10 +19,10 @@ const BulletComp = ({title, text}) => {
           animate={inView ? "visible" : "hidden"}
           variants={animationVariants}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="block rounded-xl border border-gray-100 p-8 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring transition duration-300 ease-in-out transform hover:scale-105"
+          className="block bg-slate-600 rounded-xl   p-8 shadow-sm hover:ring-2 hover:ring-gray-200 focus:outline-none focus:ring transition duration-300 ease-in-out transform hover:scale-105"
         >
           <h2 className="mt-2 font-bold text-lg">{title}</h2>
-          <p className="hidden mt-1 text-sm text-gray-600 sm:block">
+          <p className="hidden mt-1 text-sm text-gray-200 sm:block">
             {text}
           </p>
         </m.div>
