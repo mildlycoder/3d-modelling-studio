@@ -5,7 +5,7 @@ import Footer from './Components/Footer'
 const Contact = () => {
   return (
     <div>
-      <section className="min-h-screen bg-cover relative" style={{ backgroundImage: "url('https://i.ibb.co/kcdL4vs/pexels-pixabay-271816.jpg')" }}>
+      <section className="min-h-screen bg-cover relative rounded-xl" style={{ backgroundImage: "url('https://i.ibb.co/kcdL4vs/pexels-pixabay-271816.jpg')" }}>
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="flex flex-col min-h-screen text-white relative z-10">
           <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
